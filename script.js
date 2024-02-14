@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "Yayyy!! Happy Valentine's Day Baby! <3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -47,7 +47,9 @@ function generateMessage(noCount) {
     "Are you really sure",
     "Don't do this to me :(",
     "You're breaking my heart",
-    "Bbibii pleaseee...",
+    "I'll be very sad",
+    "Final na talaga? Ayaw mo :(",
+    "Bb pleaseee...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
