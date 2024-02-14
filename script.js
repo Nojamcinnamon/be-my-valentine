@@ -49,6 +49,7 @@ function generateMessage(noCount) {
     "You're breaking my heart",
     "I'll be very sad",
     "Final na talaga? Ayaw mo :(",
+    "Sure na :(",
     "Bb pleaseee...",
   ];
 
